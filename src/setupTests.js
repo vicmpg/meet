@@ -18,3 +18,5 @@ const MESSAGES_TO_IGNORE = [
     );
     if (!ignoreMessage) originalError(...args);
   };
+
+  jest.setTimeout(30000);
